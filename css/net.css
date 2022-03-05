@@ -1,0 +1,60 @@
+body
+{
+    background-image:url("https://images.idgesg.net/images/article/2020/10/cso_security_global-breach_networking_hack_invasion_infiltrate_5g_connected_gettyimages-1211443622_by-dkosig_2400x1600px-100861755-large.jpg?auto=webp&quality=85,70");
+    background-size:cover;  
+}
+h4:hover
+{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    border-color: blue;
+    text-shadow: #111;
+  
+}
+
+header
+{
+    text-align: center;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 200px;
+    color:aliceblue;
+
+}
+h2
+{
+   text-align: center;
+   margin-top: auto;
+   
+}  
+h2:hover
+{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    border-color: antiquewhite;
+}
+.square_btn
+{
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #FFF;
+  background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+  background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+  transition: .4s;
+}
+
+ .square_btn:hover 
+{
+ background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+ background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
+
+
+body {
+font-family: "Lato", sans-serif;
+}
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration system PHP and MySQL</title>
+   <link rel="stylesheet" href="css/style.css">
+   <script>
+     function validate()
+     {
+      var fname = document.reg_form.fname;   
+      var email = document.reg_form.email;
+      var pwd1 = document.reg_form.pwd1;    
+      var pwd2 = document.reg_form.pwd2;    
+      var course = document.reg_form.course;  
+      var number = document.reg_form.number;  
+      var dob = document.reg_form.dob;  
+     
+     
+      if (fname.value.length <= 0)
+       {    
+                alert("Name is required");    
+                fname.focus();    
+                return false;    
+       }
+       if (email.value.length <= 0)
+        {    
+                alert("Email Id is required");    
+                email.focus();    
+                return false;    
+        
+        }
+        
+        if(pwd1.value!=pwd2.value)
+        {
+          window.alert("Passwords Should be Same");
+          pwd1.focus();
+          return false;
+        }
+        if(course.value=="select course")
+        {
+            window.alert("Selected Any Course!");
+            course.focus();
+            return false;
+        }
+       
+        if(number.value == "")
+         {
+            window.alert("Error: Cell number must not be null.");
+            number.focus();
+            return false;
+        }
+        
+        
+      
+        
+        if(dob.value == "")
+         {
+            window.alert("DOB must be filled Out!");
+            dob.focus();
+            return false;
+        }  
+        
+       
+    }   
+
+   </script>
+  
+</head>
+
+<body>
+  <div class="header">
+  	<h2>Register</h2>
+  </div>
+	
+  <form name="reg_form" method="post" onsubmit="return validate()" action="sub.html">
+  
+  	<div class="input-group">
+  	  <label>Username</label>
+  	  <input type="text" name="fname" > 
+  	</div>
+  	<div class="input-group">
+  	  <label>Email</label>
+  	  <input type="email" name="email">
+    </div>
+    
+  	<div class="input-group">
+  	  <label>Password</label>
+  	  <input type="password" name="pwd1"  minlength="8" >
+  	</div>
+  	<div class="input-group">
+  	  <label>Confirm password</label>
+  	  <input type="password" name="pwd2"  minlength="8" >
+  	</div>
+  	
+    <div class="input-group">
+  	  <label>Courses</label>
+  	  <select id="i1"  name="course" class="input-group" required> 
+        <option value="select course">select course</option> 
+
+        <option> Photoshop</option>
+        <option>Networking </option>
+
+        <option> Artificial Intelligence</option>
+        <option> Cloud Computing</option>
+        <option> Crypto Currency</option>
+        <option> IOT</option>
+        <option> Mobile Application Development</option>
+        <option> Ethical Hacking</option>
+      </select>
+    </div>
+       <div class="input-group">
+  	  <label>Phone no</label>
+  	  <input type="number" name="number">
+  	</div>
+    <div class="input-group">
+  	  <label>dob</label>
+  	  <input type="date" name="dob" >
+  	</div>
+  
+    <div class="input-group">
+  	  <button type="submit" class="btn" name="reg_user">Register</button>
+    </div>
+    
+  	<p>
+  		Already a member? <a href="login.html">Sign in</a>
+          <br>
+          Go Back ?  <a href="index1.html">Home</a>
+  	</p>
+  </form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+   /* Change the link color to #111 (black) on hover */
+   li a:hover {
+    background-color: #111;
+  }
+  li a:active
+  {
+      color:green;
+      background-color: aliceblue;
+      
+  }
+  li a::selection{
+      background-color: azure;
+      color:black;
+  }

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+box-sizing: border-box;
+}
+body{
+    background-color:black;
+}
+img
+{
+    width:250px;
+    height:250px;
+}
+h1 {
+text-align: center;
+}
+.outer-grid {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+.inner-grid {
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+}
+.inner-grid img {
+margin-top: 8px;
+width: 100%;
+padding: 10px;
+}
+#div_tag
+{
+   
+    margin: 80px 60px 80px 60px ;
+    margin-left: 300px;
+    align-items: center;
+}
+.image
+{
+    padding: 30px;
+  
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.image:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+header
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    color: black;
+    border: 5px solid wheat;
+    box-shadow: 2px;
+    padding: 10px;
+    border-color:20px solid blueviolet;
+    border-block-end-width: 2px;
+    background-color: wheat;
+}
+</style>
+<body>
+    <header> Available Courses</header>
+<div id="div_tag">
+<div class="outer-grid">
+<div class="inner-grid">
+    <a href="payment.html">
+<img
+src="image/iot.jpg" class="image"
+/></a>
+<a href="lesson.html">
+<img
+src="image/ai.jpg" class="image"
+/></a>
+<a href="payment.html">
+<img
+src="image/app.png" class="image"
+/></a>
+
+</div>
+<div class="inner-grid">
+    <a href="payment.html">
+<img
+src="image/cg.png" class="image"
+/>
+</a>
+<a href="payment.html">
+<img
+src="image/cloud.png" class="image"
+/></a>
+<a href="payment.html">
+<img
+src="image/networking.jpg" class="image"
+/></a>
+</div>
+<div class="inner-grid">
+    <a href="payment.html">
+<img
+src="image/web.jpg" class="image"
+/></a>
+<a href="payment.html">
+<img
+src="image/crypto.jpg" class="image"
+/></a>
+<a href="payment.html">
+<img
+src="image/eh.jpg" class="image"
+/></a>
+</div>
+</div>
+</div>
+</body>
+</html>

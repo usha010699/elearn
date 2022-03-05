@@ -1,0 +1,25 @@
+iframe{
+    height: 500px;
+    width:500px;
+    margin: 150px;
+    margin-top: 5px;
+    
+     }
+            body{
+                background-image: url("https://img.freepik.com/free-photo/internet-things-background_34629-827.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            div{
+                text-align: center;
+                color:aliceblue;
+                
+            }
+            #s1
+            {
+                margin:20px;
+                padding: 20px;
+            }
+          
+        /* Change the link color to #111 (black) on hover */
+       

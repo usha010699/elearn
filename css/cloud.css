@@ -1,0 +1,60 @@
+body
+{
+    background-image:url("https://imageio.forbes.com/specials-images/imageserve/5f9fa9e815da35da1356a28b/The-5-Biggest-Cloud-Computing-Trends-In-2021/960x0.jpg?fit=bounds&format=jpg&width=960");
+    background-size:cover;  
+}
+h4:hover
+{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    border-color: blue;
+    text-shadow: #111;
+  
+}
+
+header
+{
+    text-align: center;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 200px;
+    color:aliceblue;
+
+}
+h2
+{
+   text-align: center;
+   margin-top: auto;
+   
+}  
+h2:hover
+{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    border-color: antiquewhite;
+}
+.square_btn
+{
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #FFF;
+  background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+  background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+  transition: .4s;
+}
+
+ .square_btn:hover 
+{
+ background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+ background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
+
+
+body {
+font-family: "Lato", sans-serif;
+}
+

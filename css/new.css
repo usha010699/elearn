@@ -1,0 +1,57 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    box-shadow: 20px blueviolet;
+    border-color: blueviolet;
+    overflow: hidden;
+   
+   
+
+   
+    
+   
+  }
+  
+  li {
+      
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+      font-size: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+     color: yellow;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+    
+   
+    
+  }
+  li a.active
+  {
+      
+      color:red;
+     
+  }
+  li a::selection{
+      background-color: azure;
+      color:black;
+  }
+ image{
+   opacity: 0.5;
+ }
+ .yellow-color {
+    color:yellow;
+    }

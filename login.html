@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration system PHP and MySQL</title>
+ 
+ <link rel="stylesheet" href="css/style_login.css">
+</head>
+<script>
+  function validate1()
+     {
+      var username = document.reg_form.username;   
+      var password = document.reg_form.password;
+     if(username.value == "")
+         {
+            window.alert("Username must be filled Out!");
+            username.focus();
+            return false;
+        }  
+        if(password.value == "")
+         {
+            window.alert("Password must be filled Out!");
+            password.focus();
+            return false;
+        }  
+       
+       
+       
+    }   
+
+ 
+</script>
+<body>
+  <div class="header">
+  	<h2>Login</h2>
+  </div>
+	 
+  <form method="post" name="reg_form" action="sub.html"  onsubmit="return validate1()">
+  	
+  	<div class="input-group">
+  		<label>Username</label>
+  		<input type="text" name="username" >
+  	</div>
+  	<div class="input-group">
+  		<label>Password</label>
+  		<input type="password" name="password">
+  	</div>
+  	<div class="input-group">
+  		<button type="submit" class="btn" name="login_user">Login</button>
+    </div>
+
+ 	<p>
+  		Not yet a member? <a href="register.html">Sign up</a>
+  	</p>
+  
+  </form>
+</body>
+</html>
